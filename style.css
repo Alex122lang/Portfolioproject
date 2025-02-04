@@ -1,0 +1,75 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar"
+    "imageprofile imageprofile imageprofile imageprofile imageprofile imageprofile"
+    "firstlist firstlist secondlist secondlist thirdlist thirdlist"
+    "socials socials socials socials socials socials"
+
+;
+    grid-gap: 10px;
+}
+#item1{
+grid-area: navbar;
+margin: 5px;
+}
+
+#item2{
+    grid-area: imageprofile;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#item3{
+        grid-area: firstlist;
+        margin: 5px;
+}
+
+#item4{
+            grid-area: secondlist;
+            margin: 5px;
+}
+#item5{
+    grid-area: thirdlist;
+    margin: 5px;
+    background-color: orange;
+}
+#item6{
+    grid-area: socials;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body{
+    background: grey;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar li{
+   
+    background: yellow;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 86px;
+    cursor: pointer;
+}
+.navbar li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.a{
+    background: red;
+}
