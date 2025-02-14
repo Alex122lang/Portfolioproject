@@ -73,3 +73,46 @@ justify-content: center;
 .a{
     background: red;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    padding: 30px 30px;
+    background: cyan;
+    border-radius: 30px 20px;
+}
+.A{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.D{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.E {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+

@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /*media queries*/
+@media screen and (max-width: 600px){
+    body{
+        background-color: red;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar"
+    "imageprofile imageprofile imageprofile imageprofile imageprofile imageprofile"
+    "firstlist firstlist firstlist firstlist firstlist firstlist"
+    "secondlist secondlist secondlist secondlist secondlist secondlist"
+    "thirdlist thirdlist thirdlist thirdlist thirdlist thirdlist"
+    "socials socials socials socials socials socials"
+    ;
+    }
+}
+    </style>
 </head>
 <body>
     <div class="grid-container">
@@ -21,7 +39,7 @@
             
         </div>
         <div id="item2">
-            <img src="/home/alex/Desktop/PORTFOLIO/download-3.jpg" alt="" width="500px" height="200px">
+            <img src="download-3.jpg" alt="" width="500px" height="200px">
         </div>
         <div id="item3">
             <h2>Hobbies</h2>
@@ -34,7 +52,7 @@
         </div>
         <div id="item4">
             <h3>Favourite youtube video</h3>
-            <iframe src="/home/alex/Videos/ENTERTAINMENT/Moana_2_[CAM]_480P.mp4" frameborder="0" width="100%"></iframe>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/Frmk94Etedo?si=kc-OZcfIDT4Dwfgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
         <div id="item5">
             <h3>About Me</h3>
@@ -51,10 +69,13 @@
         </div>
         <div id="item6">
             <h3>For more enquiries you can reach to me via the social media:</h3>
-            <a href="https://www.X.com">X</a>
-            <a href="https://www.Facebook.com">Facebook</a>
-            <a href="https://www.Instagram.com">Instagram</a>
-            <a href="https://www.Telegram.com">Telegram</a>
+            <div class="icon">
+            <a class="A" href="https://www.X.com"><img src="X.jpeg" alt="" width="20px" height="20px">X</a>
+             <a class="B" href="https://www.Facebook.com"><img src="facebook.jpeg" alt="" width="20px" height="20px">Facebook</a>
+            <a class="C" href="https://www.Instagram.com"><img src="instagram.jpeg" alt="" width="20px" height="20px">Instagram</a>
+                <a class="D" href="https://www.Telegram.com"><img src="telegram.png" alt="" width="20px" height="20px">Telegram</a>
+                <a class="E" href="https://www.Youtube.com"><img src="youtube.png" alt="" width="20px" height="20px">Youtube</a>
+            </div>
         
         
         </div>
